@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cnt_display_tb_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="cnt_display_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3180000000001fs"></ZoomEndTime>
+      <Cursor1Time time="24000480000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="247"></NameColumnWidth>
+      <ValueColumnWidth column_width="92"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/cnt_display_tb/RELOJ" type="logic">
+      <obj_property name="ElementShortName">RELOJ</obj_property>
+      <obj_property name="ObjectShortName">RELOJ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider76">
+      <obj_property name="label">SENNALES ENTRADA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/BCD_NUMERO" type="array">
+      <obj_property name="ElementShortName">BCD_NUMERO[15:0]</obj_property>
+      <obj_property name="ObjectShortName">BCD_NUMERO[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/BCD_OK_NUMERO" type="logic">
+      <obj_property name="ElementShortName">BCD_OK_NUMERO</obj_property>
+      <obj_property name="ObjectShortName">BCD_OK_NUMERO</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider77">
+      <obj_property name="label">SENNALES SALIDA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/AND_30_SALIDA_DISPLAY" type="array">
+      <obj_property name="ElementShortName">AND_30_SALIDA_DISPLAY[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AND_30_SALIDA_DISPLAY[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/DP_PUNTO" type="logic">
+      <obj_property name="ElementShortName">DP_PUNTO</obj_property>
+      <obj_property name="ObjectShortName">DP_PUNTO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/SEG_AG_DISPLAY_SELEC" type="array">
+      <obj_property name="ElementShortName">SEG_AG_DISPLAY_SELEC[6:0]</obj_property>
+      <obj_property name="ObjectShortName">SEG_AG_DISPLAY_SELEC[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider78">
+      <obj_property name="label">SENNALES AUXILIARES</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/D_Display_Aux" type="array">
+      <obj_property name="ElementShortName">D_Display_Aux[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D_Display_Aux[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/BCD_U" type="array">
+      <obj_property name="ElementShortName">BCD_U[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BCD_U[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/BCD_D" type="array">
+      <obj_property name="ElementShortName">BCD_D[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BCD_D[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/BCD_C" type="array">
+      <obj_property name="ElementShortName">BCD_C[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BCD_C[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/BCD_M" type="array">
+      <obj_property name="ElementShortName">BCD_M[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BCD_M[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider79">
+      <obj_property name="label">ESTADO DISPLAY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_display_tb/D_Display" type="array">
+      <obj_property name="ElementShortName">D_Display[15:0]</obj_property>
+      <obj_property name="ObjectShortName">D_Display[15:0]</obj_property>
+   </wvobject>
+</wave_config>
