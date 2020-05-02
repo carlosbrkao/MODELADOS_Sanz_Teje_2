@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="bin2bcd_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="bin2bcd_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="144200001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="202"></NameColumnWidth>
+      <ValueColumnWidth column_width="104"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/bin2bcd_tb/RELOJ" type="logic">
+      <obj_property name="ElementShortName">RELOJ</obj_property>
+      <obj_property name="ObjectShortName">RELOJ</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bin2bcd_tb/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bin2bcd_tb/DATA_BIN" type="array">
+      <obj_property name="ElementShortName">DATA_BIN[11:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_BIN[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bin2bcd_tb/DATA_OK_BIN" type="logic">
+      <obj_property name="ElementShortName">DATA_OK_BIN</obj_property>
+      <obj_property name="ObjectShortName">DATA_OK_BIN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bin2bcd_tb/DUT/cnt_bin_out" type="array">
+      <obj_property name="ElementShortName">cnt_bin_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_bin_out[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bin2bcd_tb/DUT/BCD_U" type="array">
+      <obj_property name="ElementShortName">BCD_U[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BCD_U[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bin2bcd_tb/DUT/BCD_D" type="array">
+      <obj_property name="ElementShortName">BCD_D[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BCD_D[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bin2bcd_tb/DUT/BCD_C" type="array">
+      <obj_property name="ElementShortName">BCD_C[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BCD_C[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bin2bcd_tb/DUT/BCD_M" type="array">
+      <obj_property name="ElementShortName">BCD_M[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BCD_M[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bin2bcd_tb/BCD_NUMERO" type="array">
+      <obj_property name="ElementShortName">BCD_NUMERO[15:0]</obj_property>
+      <obj_property name="ObjectShortName">BCD_NUMERO[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bin2bcd_tb/BCD_OK_NUMERO" type="logic">
+      <obj_property name="ElementShortName">BCD_OK_NUMERO</obj_property>
+      <obj_property name="ObjectShortName">BCD_OK_NUMERO</obj_property>
+   </wvobject>
+</wave_config>
