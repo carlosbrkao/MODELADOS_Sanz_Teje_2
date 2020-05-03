@@ -15,7 +15,7 @@ end cnt_AD7476A;
 
 architecture RTL of cnt_AD7476A is
 --cosas preescaler
-constant CLKDIV      : integer := 8;
+constant CLKDIV      : integer := 13334;
 signal   counter_reg : integer range 0 to CLKDIV-1;
 signal   CE_SCLK     : std_logic;
 --cosas emisor
@@ -27,11 +27,11 @@ signal   contadorJ   : unsigned(2 downto 0);
 
 ---Señales prueba 300 mil millones
 signal fBajada : std_logic;
-constant desp : integer := 240;
-signal desp_counter : integer range 0 to 240;
+constant desp : integer := 400020;
+signal desp_counter : integer range 0 to 400020;
 signal DATA_OK_aux :std_logic;
 ---CS
-constant CS_L : integer := 263;
+constant CS_L : integer := 440022;
 signal CS_L_counter : integer range 0 to CS_L;
 signal CS_aux : std_logic;
 constant CS_H : integer :=1;
@@ -117,7 +117,7 @@ begin  -- RTL
      elsif (CLK'event and CLK = '1')then     
         if(CS_aux = '0') then        
             if(desp_counter < desp) then
-                if((desp_counter mod 16)=0) then
+                if((desp_counter mod 26668)=0) then
                     DATA_aux <= DATA_aux(10 downto 0) & '0';
                 end if;
                 DATA_aux(0)<= SDATA;
