@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cnt_AD7476A_tb_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="cnt_AD7476A_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2033198666667fs"></ZoomStartTime>
+      <ZoomEndTime time="2107498666668fs"></ZoomEndTime>
+      <Cursor1Time time="2032935000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="202"></NameColumnWidth>
+      <ValueColumnWidth column_width="76"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/cnt_AD7476A_tb/CLK_aux" type="logic">
+      <obj_property name="ElementShortName">CLK_aux</obj_property>
+      <obj_property name="ObjectShortName">CLK_aux</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_AD7476A_tb/RST_aux" type="logic">
+      <obj_property name="ElementShortName">RST_aux</obj_property>
+      <obj_property name="ObjectShortName">RST_aux</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_AD7476A_tb/VOLTAJE" type="other">
+      <obj_property name="ElementShortName">VOLTAJE</obj_property>
+      <obj_property name="ObjectShortName">VOLTAJE</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_AD7476A_tb/SDATA_aux" type="logic">
+      <obj_property name="ElementShortName">SDATA_aux</obj_property>
+      <obj_property name="ObjectShortName">SDATA_aux</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_AD7476A_tb/CS_aux" type="logic">
+      <obj_property name="ElementShortName">CS_aux</obj_property>
+      <obj_property name="ObjectShortName">CS_aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_AD7476A_tb/SCLK_aux" type="logic">
+      <obj_property name="ElementShortName">SCLK_aux</obj_property>
+      <obj_property name="ObjectShortName">SCLK_aux</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_AD7476A_tb/DATA_aux" type="array">
+      <obj_property name="ElementShortName">DATA_aux[11:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_aux[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cnt_AD7476A_tb/DATA_OK_aux" type="logic">
+      <obj_property name="ElementShortName">DATA_OK_aux</obj_property>
+      <obj_property name="ObjectShortName">DATA_OK_aux</obj_property>
+   </wvobject>
+</wave_config>
